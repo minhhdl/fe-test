@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?urjvj8");
+  src: url("fonts/icomoon.eot?urjvj8#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?urjvj8") format("truetype"),
+    url("fonts/icomoon.woff?urjvj8") format("woff"),
+    url("fonts/icomoon.svg?urjvj8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sicon-"],
+[class*=" sicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sicon-close:before {
+  content: "\e902";
+  color: #942f70;
+}
+.sicon-clock:before {
+  content: "\e901";
+  color: #14597a;
+}
+.sicon-calendar:before {
+  content: "\e900";
+  color: #14597a;
+}
+.sicon-currency-dollar:before {
+  content: "\e903";
+  color: #14597a;
+}
+.sicon-location-marker:before {
+  content: "\e904";
+  color: #14597a;
+}
+.sicon-picture:before {
+  content: "\e905";
+  color: #14597a;
+}
+.sicon-user-group:before {
+  content: "\e906";
+  color: #14597a;
+}

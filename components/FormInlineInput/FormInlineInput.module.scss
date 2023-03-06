@@ -1,0 +1,10 @@
+.input {
+  @apply bg-primary-400 text-5xl font-bold leading-normal px-3 py-1 border-none outline-none shadow-none;
+  font-family: var(--font-inter);
+  color: #fff;
+  white-space: pre-line;
+
+  &::placeholder {
+    color: #fff;
+  }
+}
